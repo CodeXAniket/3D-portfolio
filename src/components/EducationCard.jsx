@@ -25,18 +25,7 @@ export default function EducationCard({ education }) {
         </div>
 
         <div className="flex h-16 flex-1 items-end gap-2">
-          {education.cgpaHistory.map((v, i) => (
-            <div key={i} className="flex h-full flex-1 items-end">
-              <motion.div
-                initial={{ height: 0 }}
-                whileInView={{ height: `${(v / max) * 100}%` }}
-                viewport={{ once: true, amount: 0.4 }}
-                transition={{ duration: 0.6, delay: 0.15 * i, ease: "easeOut" }}
-                className="w-full rounded-sm bg-gold/70"
-                style={{ boxShadow: "0 0 8px -1px var(--gold)" }}
-              />
-            </div>
-          ))}
+          
         </div>
       </div>
       <p className="mt-2 font-mono2 text-[11px] uppercase tracking-widest text-ink-faint">
