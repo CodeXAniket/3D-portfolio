@@ -5,12 +5,11 @@
 :root {
   --bg: #0b0b0f;
   --surface: #12121a;
-  --wire: #ffb020; /* electric amber - the cable */
-  --cyan: #4cc9f0; /* projects */
-  --pink: #e64c9a; /* certifications (softened from pure magenta) */
-  --green: #52e3a4; /* extra curricular */
-  --purple: #9b8cff; /* education */
-  --gold: #ffd166; /* hero accents */
+  --wire: #ffb020; 
+  --cyan: #4cc9f0;   --pink: #e64c9a; 
+  --green: #52e3a4; 
+  --purple: #9b8cff; 
+  --gold: #ffd166; 
   --ink: #e9e9ee;
   --ink-dim: #9a9aa5;
   --ink-faint: #6a6a76;
@@ -33,7 +32,7 @@ body {
   overflow-x: hidden;
 }
 
-/* subtle scanline texture over the whole page */
+
 body::before {
   content: "";
   position: fixed;
@@ -83,8 +82,7 @@ body::before {
   font-family: "VT323", monospace;
 }
 
-/* forward-motion flow for road studs / lane dashes — replaces the old
-   electric spark travel. A slow, steady drift, not a pulse. */
+
 @keyframes road-flow {
   from {
     background-position-y: 0;
