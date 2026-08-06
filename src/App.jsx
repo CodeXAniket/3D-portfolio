@@ -20,9 +20,7 @@ export default function App() {
       <main className="relative z-10">
         <Hero />
 
-        {/* The highway timeline only runs between the Hero and the
-            Footer: it begins right under "Press Start" and ends right
-            after Extra Curricular, before the closing/footer section. */}
+        
         <div className="relative">
           
           <HighwayLine />
@@ -65,7 +63,7 @@ export default function App() {
           <section id="activities" className="mx-auto max-w-content px-6 py-16 md:py-24">
             <SectionTitle eyebrow="LEVEL 04" title="Extra Curricular" icon="⭐" color="green" />
             <BranchRow side="right" color="green">
-              <div className="grid w-full max-w-[620px] grid-cols-1 gap-4 sm:grid-cols-3">
+              <div className="grid w-full max-w-[620px] grid-cols-1 gap-4 sm:grid-cols-1">
                 {activities.map((activity, i) => (
                   <ActivityCard key={activity.id} activity={activity} index={i} />
                 ))}
