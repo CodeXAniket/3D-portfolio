@@ -36,7 +36,7 @@ export default function App() {
             </div>
           </section>
 
-          <MilestoneMarker label="KM 01" color="pink" />
+          <MilestoneMarker label="Mission 01" color="pink" />
 
           <section id="certifications" className="mx-auto max-w-content px-6 py-16 md:py-24">
             <SectionTitle eyebrow="LEVEL 02" title="Certifications" icon="🏆" color="pink" />
@@ -49,7 +49,7 @@ export default function App() {
             </div>
           </section>
 
-          <MilestoneMarker label="KM 02" color="gold" />
+          <MilestoneMarker label="Mission 02" color="gold" />
 
           <section id="education" className="mx-auto max-w-content px-6 py-16 md:py-24">
             <SectionTitle eyebrow="LEVEL 03" title="Education" icon="🎓" color="gold" />
@@ -58,7 +58,7 @@ export default function App() {
             </BranchRow>
           </section>
 
-          <MilestoneMarker label="KM 03" color="green" />
+          <MilestoneMarker label="Mission 03" color="green" />
 
           <section id="activities" className="mx-auto max-w-content px-6 py-16 md:py-24">
             <SectionTitle eyebrow="LEVEL 04" title="Extra Curricular" icon="⭐" color="green" />
