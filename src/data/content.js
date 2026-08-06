@@ -1,25 +1,25 @@
 export const profile = {
   name: "Aniket Deotale",
-  role: "Full Stack Developer",
-  tagline: "CSE undergrad at VIT Vellore, building solutions that create impact.",
+  role: "Stay hungry, maybe foolish?",
+  tagline: "CSE undergrad at VIT Vellore",
   location: "Vellore, Tamil Nadu, India",
   socials: {
-    github: "https://github.com/aniketdeotale",
-    linkedin: "https://linkedin.com/in/aniketdeotale",
-    email: "mailto:aniket.deotale@example.com",
+    github: "https://github.com/CodeXAniket",
+    linkedin: "https://www.linkedin.com/in/aniketdeotale/",
+    email: "mailto:deotalaniket2@gmail.com",
   },
 };
 
 export const projects = [
   {
     id: "p1",
-    title: "AI News Intelligence",
+    title: "Lightweight API Gateway",
     description:
-      "AI-powered news platform that summarizes and personalizes news for every reader using the Gemini API.",
-    tech: ["MERN", "Gemini API", "Tailwind"],
+      "A secure API Gateway that authenticates users and routes client requests efficiently to multiple backend microservices",
+    tech: ["C#", "ASP.NET Core", "YARP", "JWT", "Serilog", "Docker"],
     color: "cyan",
-    github: "https://github.com/aniketdeotale/ai-news-intelligence",
-    demo: "https://ai-news-intelligence.vercel.app",
+    github: "https://github.com/CodeXAniket/API-Gateway",
+    
   },
   {
     id: "p2",
@@ -28,8 +28,8 @@ export const projects = [
       "Finds nearby shops and essentials with live directions and accurate time-to-arrival estimates.",
     tech: ["MERN", "Maps API", "JWT"],
     color: "cyan",
-    github: "https://github.com/aniketdeotale/nearest-essentials",
-    demo: "https://nearest-essentials.vercel.app",
+    github: "https://github.com/CodeXAniket/Nearest_Essentials_finder",
+    
   },
   {
     id: "p3",
@@ -38,29 +38,29 @@ export const projects = [
       "Real-time object detection system built on YOLOv8 and OpenCV for live camera streams.",
     tech: ["Python", "YOLOv8", "OpenCV"],
     color: "cyan",
-    github: "https://github.com/aniketdeotale/visiondetect-ai",
-    demo: "https://visiondetect-demo.vercel.app",
+    github: "https://github.com/CodeXAniket/Yolo_2026",
+   
   },
 ];
 
 export const certifications = [
   {
     id: "c1",
-    name: "AWS Academy Graduate",
+    name: "AWS Certified Cloud Practitioner",
     issuer: "Cloud Architecting — Amazon Web Services",
-    verify: "https://www.credly.com/badges/aws-academy-graduate",
+    verify: "https://drive.google.com/file/d/14x-Gian_2ssrBhGWdkwy3ZM-oamEW-uS/view?usp=sharing",
   },
   {
     id: "c2",
-    name: "Microsoft AZ-900",
-    issuer: "Microsoft Azure Fundamentals",
-    verify: "https://learn.microsoft.com/en-us/credentials/az-900",
+    name: "AWS Certified Solutions Architect - Associate SAA-C03",
+    issuer: "AWS",
+    verify: "https://drive.google.com/file/d/1ufWUZbeqU0rd7bQHKcxNVSVq5-QgePpv/view?usp=sharing",
   },
   {
     id: "c3",
     name: "Oracle Java Foundations Associate",
     issuer: "Oracle",
-    verify: "https://catalog-education.oracle.com/ords/certview/sharebadge",
+    verify: "https://drive.google.com/file/d/1U8jz58uv8SaUFy-mpi5Tm4gHoqW3BgqX/view?usp=sharing",
   },
 ];
 
@@ -68,28 +68,17 @@ export const education = {
   degree: "B.Tech, Computer Science & Engineering",
   school: "VIT Vellore",
   years: "2023 — 2027",
-  gpa: "9.09",
+  cgpa: "9.05",
   scale: "10",
-  cgpaHistory: [8.6, 8.9, 9.1, 9.09],
 };
 
 export const activities = [
+  
   {
     id: "a1",
-    title: "Coding Enthusiast",
-    description: "Solving problems daily on LeetCode, Codeforces & GeeksforGeeks.",
+    title: "Team Lead Yuva Marathi",
+    description: "Contributed to Aikya's consecutive winning Yuva Marathi team as a participant in the second year and as both Team Lead and participant in the third year.",
     color: "green",
   },
-  {
-    id: "a2",
-    title: "Tech Community Member",
-    description: "Active participant in college tech fests and workshops.",
-    color: "green",
-  },
-  {
-    id: "a3",
-    title: "Finance & Trading Enthusiast",
-    description: "Passionate about markets, analysis and microeconomics.",
-    color: "green",
-  },
+  
 ];
