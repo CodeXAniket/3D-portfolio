@@ -47,7 +47,7 @@ export default function Footer() {
         transition={{ duration: 0.5 }}
         className="font-mono2 text-lg text-ink-dim"
       >
-        &gt; connecting dreams to reality...
+        
       </motion.p>
 
       <motion.p
@@ -84,7 +84,7 @@ export default function Footer() {
         </a>
       </div>
       <p className="mt-6 font-mono2 text-xs text-ink-faint">
-        © {new Date().getFullYear()} {profile.name}. Built with React & a lot of coffee.
+        Built with React & a lot of coffee.
       </p>
     </footer>
   );
