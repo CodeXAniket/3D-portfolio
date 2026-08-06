@@ -19,7 +19,7 @@ export const projects = [
     tech: ["C#", "ASP.NET Core", "YARP", "JWT", "Serilog", "Docker"],
     color: "cyan",
     github: "https://github.com/CodeXAniket/API-Gateway",
-    
+    demo:"https://3-d-portfolio-three-mu.vercel.app/"
   },
   {
     id: "p2",
@@ -29,7 +29,7 @@ export const projects = [
     tech: ["MERN", "Maps API", "JWT"],
     color: "cyan",
     github: "https://github.com/CodeXAniket/Nearest_Essentials_finder",
-    
+    demo:"https://3-d-portfolio-three-mu.vercel.app/"
   },
   {
     id: "p3",
@@ -39,7 +39,7 @@ export const projects = [
     tech: ["Python", "YOLOv8", "OpenCV"],
     color: "cyan",
     github: "https://github.com/CodeXAniket/Yolo_2026",
-   
+    demo:"https://3-d-portfolio-three-mu.vercel.app/"
   },
 ];
 
