@@ -44,7 +44,7 @@ export default function Hero() {
         transition={{ delay: 0.2, duration: 0.5 }}
         className="mt-6 font-mono2 text-lg tracking-[0.35em] text-green"
       >
-        PLAYER 1 &nbsp;&gt;&nbsp; HELLO, I'M
+         HELLO, I'M
       </motion.p>
 
       <motion.h1
