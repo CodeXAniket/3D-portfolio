@@ -68,7 +68,7 @@ export const education = {
   degree: "B.Tech, Computer Science & Engineering",
   school: "VIT Vellore",
   years: "2023 — 2027",
-  cgpa: "9.05",
+  gpa: "9.05",
   scale: "10",
 };
 
