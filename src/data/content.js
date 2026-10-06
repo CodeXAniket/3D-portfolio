@@ -46,19 +46,19 @@ export const projects = [
   },
   {
     id: "p3",
-    icon: "chart",
-    title: "FinClose",
-    subtitle: "Reconciliation & Variance Reporting",
-    status: "In progress",
+    icon: "database",
+    title: "SQL Query Doctor",
+    subtitle: "SQL Performance Analyzer",
     description:
-      "Automates a finance team's month-end close: matching the ledger against bank statements and explaining variances against budget.",
+      "A web-based analyzer that parses queries in 4 SQL dialects, flags performance anti-patterns and explains how to fix each one.",
     highlights: [
-      "Generates a full year of realistic data with planted errors to score accuracy",
-      "SQL reconciliation in PostgreSQL, with Excel and Power BI reporting",
+      "Turns EXPLAIN output from 4 database engines into one D3.js plan tree",
+      "In-browser PostgreSQL playground (PGlite) to measure index speed-ups",
     ],
-    tech: ["Python", "SQL", "PostgreSQL", "pandas", "Power BI"],
+    tech: ["React", "TypeScript", "PostgreSQL", "PGlite", "D3.js"],
     color: "cyan",
-    github: "https://github.com/CodeXAniket/finclose",
+    github: "https://github.com/CodeXAniket/sql-query-doctor",
+    demo: "https://sql-query-doctor.vercel.app",
   },
 ];
 
