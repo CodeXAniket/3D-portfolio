@@ -6,40 +6,59 @@ export const profile = {
   socials: {
     github: "https://github.com/CodeXAniket",
     linkedin: "https://www.linkedin.com/in/aniketdeotale/",
-    email: "mailto:deotalaniket2@gmail.com",
+    email: "mailto:deotaleaniket2@gmail.com",
   },
 };
 
+// demo is optional: leave it out and the card shows only the GitHub button.
+// status is optional: set it for work that isn't finished yet.
 export const projects = [
   {
     id: "p1",
-    title: "Lightweight API Gateway",
+    icon: "lock",
+    title: "CipherLink",
+    subtitle: "P2P Encrypted Messenger",
     description:
-      "A secure API Gateway that authenticates users and routes client requests efficiently to multiple backend microservices",
-    tech: ["C#", "ASP.NET Core", "YARP", "JWT", "Serilog", "Docker"],
+      "Chats, photos and videos travel directly between browsers over WebRTC. The server only introduces peers and never sees or stores a message.",
+    highlights: [
+      "DTLS-encrypted DataChannels with 100 MB transfers on mobile",
+      "ECDSA device keys and safety numbers to detect MITM attacks",
+    ],
+    tech: ["JavaScript", "Node.js", "WebRTC", "WebSocket", "AWS EC2"],
     color: "cyan",
-    github: "https://github.com/CodeXAniket/API-Gateway",
-    demo:"https://3-d-portfolio-three-mu.vercel.app/"
+    github: "https://github.com/CodeXAniket/CipherLink",
+    demo: "https://cipherlink.duckdns.org",
   },
   {
     id: "p2",
-    title: "Nearest Essentials Finder",
+    icon: "eye",
+    title: "VisionGuard AI",
+    subtitle: "Object Detection Platform",
     description:
-      "Finds nearby shops and essentials with live directions and accurate time-to-arrival estimates.",
-    tech: ["MERN", "Maps API", "JWT"],
+      "A surveillance platform with a React frontend, Node.js API and a Python YOLOv8 service that detects 80 object classes in live webcam frames.",
+    highlights: [
+      "Turns continuous detections into single events with per-class cooldowns",
+      "Snapshots in private AWS S3, metadata in MongoDB, JWT-secured APIs",
+    ],
+    tech: ["React", "Node.js", "Python", "YOLOv8", "MongoDB", "AWS S3"],
     color: "cyan",
-    github: "https://github.com/CodeXAniket/Nearest_Essentials_finder",
-    demo:"https://3-d-portfolio-three-mu.vercel.app/"
+    github: "https://github.com/CodeXAniket/VisionGuard_AI_object_detection",
   },
   {
     id: "p3",
-    title: "VisionDetect AI",
+    icon: "chart",
+    title: "FinClose",
+    subtitle: "Reconciliation & Variance Reporting",
+    status: "In progress",
     description:
-      "Real-time object detection system built on YOLOv8 and OpenCV for live camera streams.",
-    tech: ["Python", "YOLOv8", "OpenCV"],
+      "Automates a finance team's month-end close: matching the ledger against bank statements and explaining variances against budget.",
+    highlights: [
+      "Generates a full year of realistic data with planted errors to score accuracy",
+      "SQL reconciliation in PostgreSQL, with Excel and Power BI reporting",
+    ],
+    tech: ["Python", "SQL", "PostgreSQL", "pandas", "Power BI"],
     color: "cyan",
-    github: "https://github.com/CodeXAniket/Yolo_2026",
-    demo:"https://3-d-portfolio-three-mu.vercel.app/"
+    github: "https://github.com/CodeXAniket/finclose",
   },
 ];
 
