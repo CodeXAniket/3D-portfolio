@@ -60,6 +60,92 @@ export const projects = [
     github: "https://github.com/CodeXAniket/sql-query-doctor",
     demo: "https://sql-query-doctor.vercel.app",
   },
+  {
+    id: "p4",
+    icon: "monitor",
+    title: "Lightweight API Gateway",
+    subtitle: "Secure Entry Point for Microservices",
+    description:
+      "A single entry point that authenticates, logs, rate limits and load balances every request before routing it to the right backend service.",
+    highlights: [
+      "JWT authentication, rate limiting and load balancing as gateway filters",
+      "Docker Compose stack with Swagger docs and a GitHub Actions CI/CD pipeline",
+    ],
+    tech: ["Java 21", "Spring Boot", "Spring Cloud Gateway", "JWT", "Docker", "GitHub Actions"],
+    color: "cyan",
+    github: "https://github.com/CodeXAniket/API-Gateway",
+  },
+  {
+    id: "p5",
+    icon: "pin",
+    title: "Nearest Essentials Finder",
+    subtitle: "Location-Based Service Finder",
+    description:
+      "Finds grocery stores, pharmacies, hospitals, ATMs and more near you, sorted by real distance, with walking or driving routes on the map.",
+    highlights: [
+      "8 categories and a 0.5 to 10 km radius, using live OpenStreetMap data",
+      "User accounts with saved places and search history",
+    ],
+    tech: ["Java", "Spring Boot", "MySQL", "React", "Tailwind CSS", "Leaflet"],
+    color: "cyan",
+    github: "https://github.com/CodeXAniket/Nearest_Essentials_finder",
+    demo: "https://nearest-essentials-finder.vercel.app",
+  },
+];
+
+// Open-source pull requests, grouped by project. status is "Merged" or "Under review".
+export const openSource = [
+  {
+    id: "o1",
+    project: "Serverless Framework",
+    about: "Framework for building and deploying apps on AWS Lambda · 47k+ stars",
+    url: "https://github.com/serverless/serverless",
+    prs: [
+      {
+        number: 13940,
+        type: "Bug fix",
+        status: "Merged",
+        title: "Dev mode silently dropped every function after the 25th",
+        detail:
+          "Traced it to AWS IoT's limit of 50 subscriptions per connection, replaced per-function subscriptions with two MQTT wildcards, and added unit tests.",
+        url: "https://github.com/serverless/serverless/pull/13940",
+      },
+      {
+        number: 13905,
+        type: "Docs",
+        status: "Merged",
+        title: "Broken links and typos across 7 documentation pages",
+        detail: "Found by scanning 164 docs files with a script, then checking every hit by hand.",
+        url: "https://github.com/serverless/serverless/pull/13905",
+      },
+    ],
+  },
+  {
+    id: "o2",
+    project: "Sandstorm",
+    about: "Self-hostable web app platform · 7k+ stars",
+    url: "https://github.com/sandstorm-io/sandstorm",
+    prs: [
+      {
+        number: 3786,
+        type: "Bug fix",
+        status: "Merged",
+        title: "Installer advertised an -i flag that did nothing",
+        detail:
+          "Deprecated it with a warning instead of deleting it, so existing install scripts that pass -i keep working.",
+        url: "https://github.com/sandstorm-io/sandstorm/pull/3786",
+      },
+      {
+        number: 3788,
+        type: "Fix",
+        status: "Under review",
+        title: "apiPath examples were missing a trailing slash",
+        detail:
+          "Without it, API requests reached apps as /apistuff instead of /api/stuff. Fixed the app template and docs.",
+        url: "https://github.com/sandstorm-io/sandstorm/pull/3788",
+      },
+    ],
+  },
 ];
 
 export const certifications = [
